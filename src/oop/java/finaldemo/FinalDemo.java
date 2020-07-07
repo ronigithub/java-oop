@@ -1,4 +1,4 @@
-package finaldemo.java.oop;
+package oop.java.finaldemo;
 
 class A {
     final int i; // constant

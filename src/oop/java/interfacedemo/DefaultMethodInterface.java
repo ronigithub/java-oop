@@ -1,4 +1,4 @@
-package interfacedemo.java.oop;
+package oop.java.interfacedemo;
 
 interface Demo {
     void abc();

@@ -1,4 +1,4 @@
-package dynamic_method_dispatch.java.opp;
+package oop.java.dynamic_method_dispatch;
 
 class A {
     public void show()

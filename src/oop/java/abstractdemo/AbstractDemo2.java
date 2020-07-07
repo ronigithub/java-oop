@@ -1,4 +1,4 @@
-package abstractdemo.java.oop;
+package oop.java.abstractdemo;
 
 class Printer {
     public void show(Number i)

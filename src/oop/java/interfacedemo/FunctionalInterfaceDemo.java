@@ -1,4 +1,4 @@
-package interfacedemo.java.oop;
+package oop.java.interfacedemo;
 
 // Type of interface
 // 1. Normal

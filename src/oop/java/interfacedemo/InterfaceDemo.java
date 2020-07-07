@@ -1,4 +1,4 @@
-package interfacedemo.java.oop;
+package oop.java.interfacedemo;
 
 interface Writer {
 // By default, all method of interface has public abstract keyword

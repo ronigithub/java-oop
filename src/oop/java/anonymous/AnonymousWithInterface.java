@@ -1,4 +1,4 @@
-package anonymous.java.oop;
+package oop.java.anonymous;
 
 interface Abc {
     void show();

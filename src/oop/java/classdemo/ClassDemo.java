@@ -1,4 +1,4 @@
-package classdemo.java.oop;
+package oop.java.classdemo;
 
 public class ClassDemo {
     public static void main(String[] args) {

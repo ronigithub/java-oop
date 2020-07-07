@@ -1,4 +1,4 @@
-package object.java.oop;
+package oop.java.object;
 
 class Calc {
     int num1;

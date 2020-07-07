@@ -1,4 +1,4 @@
-package varargs.java.oop;
+package oop.java.varargs;
 
 class Calc {
     public int add(int ... n) // array {4, 5, 6, 7, 8}

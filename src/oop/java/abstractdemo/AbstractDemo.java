@@ -1,4 +1,4 @@
-package abstractdemo.java.oop;
+package oop.java.abstractdemo;
 
 abstract class Writer {
     public abstract void writer();

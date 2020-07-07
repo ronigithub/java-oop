@@ -1,4 +1,4 @@
-package anonymous.java.oop;
+package oop.java.anonymous;
 
 class A {
     public void show()

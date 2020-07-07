@@ -1,4 +1,4 @@
-package constructor.java.oop;
+package oop.java.constructor;
 
 class Calculator {
     int num1;

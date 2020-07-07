@@ -9,7 +9,7 @@ Object Oriented Programming with Java Language
 
 ### Interface
 - By default, all method of interface has public abstract keyword. No need to define.
-- Methods can only declared.
+- Methods can only declared but in 1.8 can be defined.
 - Not possible to create objects.
 - Solves multiple inheritance problem.
 
