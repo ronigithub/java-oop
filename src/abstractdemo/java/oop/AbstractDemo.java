@@ -1,15 +1,45 @@
 package abstractdemo.java.oop;
 
+abstract class Writer {
+    public abstract void writer();
+
+    public void show()
+    {
+        System.out.println("in Writer");
+    }
+}
+
+class Pen extends Writer {
+    public void writer()
+    {
+        System.out.println("I'm a Pen");
+    }
+}
+
+class Pencil extends Writer {
+    public void writer()
+    {
+        System.out.println("I'm a Pencil");
+    }
+}
+
+class Kit {
+    public void doSomething(Writer p)
+    {
+        p.writer();
+//        p.show();
+    }
+}
+
 public class AbstractDemo {
     public static void main(String[] args) {
 
-        Human obj = new Man();
-        obj.eat();
+        Kit k = new Kit();
 
-        System.out.println("===================");
-        System.out.println("Printer Section");
-        System.out.println("===================");
-        Printer printerObj = new Printer();
-        printerObj.show(5.5);
+        Writer p = new Pen();
+
+        Writer pc = new Pencil();
+
+        k.doSomething(p);
     }
 }
